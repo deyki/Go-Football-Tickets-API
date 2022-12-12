@@ -96,7 +96,7 @@ func NewTicket(ticketRequest *TicketRequest) (*ResponseMessage, *util.ErrorMessa
 	ticket := &database.Ticket{
 		Host: 			ticketRequest.Host,
 		Guest: 			ticketRequest.Guest,
-		StadiumName: 	ticketRequest.StadiumName,
+		StadiumName: 		ticketRequest.StadiumName,
 		Time: 			ticketRequest.Time,
 		Price: 			ticketRequest.Price,
 		InStock: 		true,
