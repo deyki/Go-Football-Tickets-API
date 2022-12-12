@@ -21,8 +21,8 @@ type TicketRequest struct {
 	Host        	string		`json:"host"`
 	Guest       	string		`json:"guest"`
 	StadiumName 	string		`json:"stadiumName"`
-	Time			string		`json:"time"`
-	Price			string		`json:"price"`	
+	Time		string		`json:"time"`
+	Price		string		`json:"price"`	
 }
 
 
