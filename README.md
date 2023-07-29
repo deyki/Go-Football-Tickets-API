@@ -8,7 +8,7 @@
 
 * PostgreSQL
 
-# Functionalities
+# Description
 
 * Authentication and authorization with json web token and cookies.
 
